@@ -1,0 +1,8 @@
+
+	#wrapper {width: 1199px; margin-right: auto; margin-left: auto; border: thin solid;}
+	
+	nav {width: 200px; min-height: 850px; float: left; text-align:center;}
+	
+	article {width: 998px; min-height: 850px; float: right; border-left: 1px solid black;}
+	
+	.clear {clear: both}
