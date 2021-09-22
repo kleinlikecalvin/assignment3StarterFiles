@@ -9,7 +9,6 @@ body {
   margin-right: auto;
   margin-left: auto;
   border: thin solid;
-  font-family: Rockwell;
 }
 
 nav {
@@ -17,11 +16,12 @@ nav {
   min-height: 850px;
   float: left;
   text-align: center;
+  background-image: url(images/nav-bg.jpeg);
 }
 nav a {
   display: block;
   margin: 1em auto;
-  padding: 1em;
+  padding: 0.5em;
   background-color: orange;
   border: 4px solid darkgrey;
   text-decoration: none;
@@ -29,20 +29,19 @@ nav a {
   transition: 0.5s;
   border-radius: 4px;
   width: 60%;
+  font-family: Rockwell;
 }
 nav a:hover {
   background-color: darkgrey;
   border: 4px solid orange;
   transition: 0.5s;
-}
-nav a:visited {
-  color: white;
+  color: white !important;
 }
 .active {
-  background-color: paleturquoise;
+  background-color: yellow;
 }
 .active:hover {
-  border: 4px solid paleturquoise;
+  border: 4px solid yellow;
 }
 article {
   width: 998px;
@@ -52,12 +51,28 @@ article {
 }
 h1 {
   text-align: center;
-  color: paleturquoise;
+  color: yellow;
+  font-family: Rockwell;
 }
 hr {
   width: 50%;
   height: 1px;
   background-color: orange;
+  margin-bottom: 3em;
+}
+p {
+  margin-left: 4em;
+  margin-right: 4em;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+p a {
+  text-decoration: none;
+  color: orange;
+}
+p a:hover {
+  color: yellow;
 }
 .clear {
   clear: both;
