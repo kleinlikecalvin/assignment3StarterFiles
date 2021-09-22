@@ -75,6 +75,14 @@ p a {
 p a:hover {
   color: peachpuff;
 }
+.home-img-container {
+  text-align: center;
+}
+.home-img {
+  margin: 1em auto;
+  border: 4px solid darkgrey;
+  border-radius: 4px;
+}
 .clear {
   clear: both;
 }
