@@ -24,11 +24,25 @@ nav a {
   padding: 1em;
   background-color: orange;
   border: 4px solid darkgrey;
+  text-decoration: none;
+  color: black;
+  transition: 0.5s;
+  border-radius: 4px;
+  width: 60%;
 }
 nav a:hover {
   background-color: darkgrey;
   border: 4px solid orange;
   transition: 0.5s;
+}
+nav a:visited {
+  color: white;
+}
+.active {
+  background-color: paleturquoise;
+}
+.active:hover {
+  border: 4px solid paleturquoise;
 }
 article {
   width: 998px;
@@ -36,7 +50,15 @@ article {
   float: right;
   border-left: 1px solid white;
 }
-
+h1 {
+  text-align: center;
+  color: paleturquoise;
+}
+hr {
+  width: 50%;
+  height: 1px;
+  background-color: orange;
+}
 .clear {
   clear: both;
 }
