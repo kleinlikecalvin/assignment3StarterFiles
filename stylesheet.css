@@ -64,8 +64,8 @@ p {
   margin-left: 4em;
   margin-right: 4em;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 p a {
   text-decoration: none;
@@ -74,7 +74,11 @@ p a {
 p a:hover {
   color: peachpuff;
 }
-/*index.html*/
+.clear {
+  clear: both;
+}
+
+/*--------index.html----------*/
 .home-img-container {
   text-align: center;
 }
@@ -83,24 +87,36 @@ p a:hover {
   border: 4px solid darkgrey;
   border-radius: 4px;
 }
-.clear {
-  clear: both;
-}
-/*a4.html*/
+
+/*---------a4.html-----------*/
 .bold {
   font-weight: bold;
+  color: darkgrey;
 }
 .italic {
   font-style: italic;
+  color: orange;
 }
 .spacing {
   letter-spacing: 3px;
+  color: peachpuff;
 }
 .left {
   float: left;
   margin: 1em;
+  border: 4px double gold;
 }
 .right {
   float: right;
   margin: 1em;
+  border: 4px double gold;
+}
+.a4-click-link:link {
+  color: gold;
+}
+.a4-click-link:hover {
+  color: paleturquoise;
+}
+.a4-click-link:visited {
+  color: crimson;
 }
