@@ -13,7 +13,7 @@ body {
 
 nav {
   width: 200px;
-  min-height: 850px;
+  min-height: 100vh;
   float: left;
   text-align: center;
   background-image: url(images/nav-bg.jpeg);
@@ -104,11 +104,13 @@ p a:hover {
 .left {
   float: left;
   margin: 1em;
+  margin-left: 0;
   border: 4px double gold;
 }
 .right {
   float: right;
   margin: 1em;
+  margin-right: 0;
   border: 4px double gold;
 }
 .a4-click-link:link {
