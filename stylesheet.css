@@ -127,3 +127,41 @@ p a:hover {
   color: crimson;
 }
 /*-------a5.html--------*/
+h2 {
+  color: aquamarine;
+  font-family: Rockwell;
+  text-align: center;
+}
+ul {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 2em;
+  list-style: none;
+}
+ul li::before {
+  content: "✓";
+  color: aquamarine;
+  margin-right: 3px;
+}
+li a:link {
+  color: orange;
+}
+li a:visited {
+  color: aquamarine;
+}
+li a:hover {
+  color: white;
+}
+ol {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 2em;
+  list-style-type: lower-roman;
+  background-color: paleturquoise;
+  margin: 2em;
+}
+ol li::first-letter {
+  font-size: large;
+  font-weight: bolder;
+  color: black;
+}
