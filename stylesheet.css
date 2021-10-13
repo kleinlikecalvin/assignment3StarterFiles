@@ -3,6 +3,8 @@
 }
 body {
   background-color: black;
+  background-image: url(images/a5-bgs.jpeg);
+  background-size: contain;
 }
 #wrapper {
   width: 1199px;
@@ -10,14 +12,14 @@ body {
   margin-left: auto;
   border: thin solid;
 }
-
 nav {
   width: 200px;
-  min-height: 100vh;
+  min-height: 100vmax;
   float: left;
   text-align: center;
   background-image: url(images/nav-bg.jpeg);
   background-size: cover;
+  background-color: black;
 }
 nav a {
   display: block;
@@ -47,8 +49,10 @@ nav a:hover {
 article {
   width: 998px;
   min-height: 850px;
+  height: 100vmax;
   float: right;
   border-left: 1px solid white;
+  background-color: black;
 }
 h1 {
   text-align: center;
