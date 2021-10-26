@@ -3,7 +3,7 @@
 }
 body {
   background-color: black;
-  background-image: url(images/a5-bgs.jpeg);
+  background-image: url("images/a5-bgs.jpeg");
   background-size: auto;
 }
 #wrapper {
@@ -139,7 +139,7 @@ ul {
   list-style: none;
 }
 ul li::before {
-  content: "✓";
+  content: "😸";
   color: aquamarine;
   margin-right: 3px;
 }
