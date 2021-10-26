@@ -158,10 +158,15 @@ ol {
   line-height: 2em;
   list-style-type: lower-roman;
   background-color: paleturquoise;
+  border-radius: 5px;
   margin: 2em;
+  color: black;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 ol li::first-letter {
   font-size: large;
   font-weight: bolder;
-  color: black;
+  color: white;
+  margin-right: 1px;
 }
