@@ -8,7 +8,7 @@ body {
 }
 #wrapper {
   width: 1199px;
-  height: 1500px;
+  height: 100%;
   margin-right: auto;
   margin-left: auto;
   border: thin solid;
@@ -48,7 +48,7 @@ nav a:hover {
 }
 article {
   width: 998px;
-  min-height: 850px;
+  min-height: 875px;
   height: 100%;
   float: right;
   border-left: 1px solid white;
