@@ -171,3 +171,9 @@ ol li::first-letter {
   color: white;
   margin-right: 1px;
 }
+#email:link {
+  color: darkgrey;
+}
+#email:hover {
+  color: orange;
+}
