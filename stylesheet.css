@@ -120,11 +120,11 @@ p a:hover {
 .a4-click-link:link {
   color: gold;
 }
-.a4-click-link:hover {
-  color: paleturquoise;
-}
 .a4-click-link:visited {
   color: crimson;
+}
+.a4-click-link:hover {
+  color: paleturquoise;
 }
 /*-------a5.html--------*/
 h2 {
