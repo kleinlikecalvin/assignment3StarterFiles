@@ -177,3 +177,7 @@ ol li::first-letter {
 #email:hover {
   color: orange;
 }
+/*---------a6.html-----------*/
+form {
+  display: inline-block;
+}
