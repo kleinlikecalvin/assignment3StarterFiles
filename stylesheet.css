@@ -213,3 +213,45 @@ input[type="reset"]:hover {
   transition: 1s;
   cursor: pointer;
 }
+/*---------a7.html-----------*/
+table {
+  width: 90%;
+  margin: 10px auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+thead tr td {
+  text-align: center;
+}
+th,
+td {
+  border: 2px solid darkgray;
+  padding: 5px;
+}
+.thWidth {
+  width: 40%;
+}
+th {
+  border-bottom: 4px solid peachpuff;
+}
+td a {
+  color: peachpuff;
+  text-decoration: none;
+  transition: 0.5s;
+}
+td a:hover {
+  color: orange;
+  transition: 0.5s;
+}
+td img {
+  display: block;
+  margin: 5px auto;
+}
+thead {
+  background-color: paleturquoise;
+  color: black;
+}
+tfoot {
+  background-color: orange;
+  color: black;
+  text-align: center;
+}
